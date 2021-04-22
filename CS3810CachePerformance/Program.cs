@@ -8,6 +8,7 @@ namespace CS3810CachePerformance
         private static int[] decMemLocations = new int[] { 4, 8, 12, 16, 20, 36, 40, 44, 20, 36, 40, 44, 64, 68,
                 4, 8,12, 92, 96, 100, 104, 108, 112, 100, 112, 116, 120, 128, 140, 144 };
 
+
         private static string[] tags;
         private static int[] valids;
         private static List<int> decLru;
